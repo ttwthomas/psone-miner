@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<iso_project image_name="myimage.iso"  no_xa="0">
+
+	<track type="data">
+	
+		<identifiers
+			system			="PLAYSTATION"
+			application		="PLAYSTATION"
+			volume			="MYDISC"
+			volume_set		="MYDISC"
+			publisher		="ME"
+			data_preparer	="MKPSXISO"
+			copyright		="COPYLEFT"
+		/>
+
+		<license file="cdrom/infoeur.dat"/>
+
+		<directory_tree>
+			<file name="system.cnf"	type="data"	source="system.txt"/>
+			<file name="MAIN.EXE"	type="data"	source="MAIN.EXE"/>
+		</directory_tree>
+		
+	</track>
+	
+</iso_project>
